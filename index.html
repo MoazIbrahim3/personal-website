@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moaz | Front-End Developer</title>
+    <meta
+      name="description"
+      content="Welcome to the portfolio of Moaz Ibrahim — Front-End Developer & Software Engineer. Discover my background, technical skills, featured projects, client testimonials, and ways to connect!"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <video class="video-loop" autoplay loop muted poster="">
+        <source src="video-loop.mp4" type="video/mp4" />
+      </video>
+
+      <!-- Navigation -->
+      <header class="header">
+        <label for="menu-toggle" class="burger-menu">
+          <div class="burger__menu-bar"></div>
+          <div class="burger__menu-bar"></div>
+          <div class="burger__menu-bar"></div>
+        </label>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a class="navigation__link navigation__bio" href="#bio">About</a>
+            </li>
+            <li>
+              <a class="navigation__link navigation__skills" href="#skills"
+                >Expertise</a
+              >
+            </li>
+            <li>
+              <a class="navigation__link navigation__projects" href="#projects"
+                >Work</a
+              >
+            </li>
+            <li>
+              <a class="navigation__link navigation__clients" href="#clients"
+                >Testimonials</a
+              >
+            </li>
+            <li>
+              <a class="navigation__link navigation__contact" href="#contact"
+                >Reach Me</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <label class="Toggle">
+          <span class="Toggle__title">Toggle Theme</span>
+          <input type="checkbox" class="Toggle__checkbox" />
+          <span class="Toggle__slider"></span>
+        </label>
+      </header>
+
+      <!-- Bio Section -->
+      <section class="bio section" id="bio">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi, I’m Moaz Ibrahim Front - End Developer & Software Engineer
+          </h1>
+          <p class="bio__objective">
+            My name is <span class="bio__name">Moaz Ibrahim</span>. I’m the
+            co-founder of
+            <a href="https://almdrasa.com/" class="bio__almdrasa"
+              >Almdrasa.com</a
+            >, and I specialize in creating scalable, clean, and user-focused
+            applications that make technology feel effortless.
+          </p>
+          <div class="buttons">
+            <a href="#contact" class="bio__link si-hi-link">Let’s Connect</a>
+            <a class="bio__link find-out-link">
+              Grab My CV <span class="arrow">↓</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="bio__pic-content">
+          <img
+            src="photo_2025.jpg"
+            alt="Portrait of Moaz Ibrahim"
+            class="bio__pic-photo"
+          />
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="skills section--with-bg section" id="skills">
+        <div class="container">
+          <h2 class="h2__heading">Technical Skills</h2>
+          <div class="skills-list">
+            <div class="skill">
+              <h3 class="h3__heading">HTML</h3>
+              <p class="section__p">Over 2 years of practical experience</p>
+            </div>
+            <div class="skill">
+              <h3 class="h3__heading">CSS</h3>
+              <p class="section__p">2+ years shaping responsive layouts</p>
+            </div>
+            <div class="skill">
+              <h3 class="h3__heading">JavaScript</h3>
+              <p class="section__p">1.5 years building dynamic interfaces</p>
+            </div>
+            <div class="skill">
+              <h3 class="h3__heading">React</h3>
+              <p class="section__p">1 year developing modern applications</p>
+            </div>
+            <div class="skill">
+              <h3 class="h3__heading">Redux</h3>
+              <p class="section__p">1 year mastering state management</p>
+            </div>
+            <div class="skill">
+              <h3 class="h3__heading">React Testing Library</h3>
+              <p class="section__p">1 year writing reliable test cases</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section projects">
+        <h2 class="h2__heading">
+          Highlighted <br />
+          Projects
+        </h2>
+
+        <!-- Project 1 -->
+        <div class="project">
+          <img
+            class="projects__img"
+            src="./images/project-1.jpg"
+            alt="Screenshot of Quran Tab Extension"
+          />
+          <div class="projects__data">
+            <h3 class="h3__heading">Quran Tab Extension</h3>
+            <p class="section__p">
+              Quran Tab is a spiritual browser extension that reveals an
+              inspiring Quranic verse each time a new tab is opened. It
+              encourages reflection, helps you track your reading journey, and
+              makes completing your “Khatma” more achievable.
+            </p>
+            <div class="projects__links">
+              <a
+                class="projects__link"
+                href="https://bit.ly/qt-chrome"
+                target="_blank"
+                >Chrome</a
+              >
+              <span>-</span>
+              <a
+                class="projects__link"
+                href="https://bit.ly/qt-edge"
+                target="_blank"
+                >Edge</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project reverse">
+          <div class="projects__data">
+            <h3 class="h3__heading">Quran Station Extension</h3>
+            <p class="section__p">
+              Quran Station is a lightweight extension that provides instant
+              access to more than 100 Quran radio streams. Explore recitations
+              by your favorite Qari or discover new voices, all at the click of
+              a button.
+            </p>
+            <div class="projects__links">
+              <a
+                class="projects__link"
+                href="https://bit.ly/qs-chrome"
+                target="_blank"
+                >Chrome</a
+              >
+              <span>-</span>
+              <a
+                class="projects__link"
+                href="https://bit.ly/qs-firefox"
+                target="_blank"
+                >Firefox</a
+              >
+              <span>-</span>
+              <a
+                class="projects__link"
+                href="https://bit.ly/quran-station-edge"
+                target="_blank"
+                >Edge</a
+              >
+            </div>
+          </div>
+          <img
+            class="projects__img"
+            src="./images/project-2.jpg"
+            alt="Screenshot of Quran Station Extension"
+          />
+        </div>
+      </section>
+
+      <!-- Clients Section -->
+      <section id="clients" class="clients section section--with-bg">
+        <div class="h2__heading">
+          <h2>
+            Words From <br />
+            My Clients
+          </h2>
+        </div>
+        <div class="client__opinions">
+          <div class="clients__wrapper">
+            <div class="client__opinion">
+              <p>
+                Moaz has an incredible talent for breaking down complex problems
+                and delivering solutions on time. Every project we worked on
+                reassured me that I could trust him completely to deliver with
+                precision.
+              </p>
+            </div>
+
+            <div class="client__opinion">
+              <p>
+                Moaz listens carefully, adds his unique insights, and often
+                delivers results far beyond expectations — in the best way
+                possible.
+              </p>
+            </div>
+
+            <div class="client__opinion">
+              <p>
+                Working closely with Moaz for 6 months, I was impressed by his
+                ownership and leadership within the team, constantly driving
+                projects toward success.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact section" id="contact">
+        <div class="contact__description">
+          <p>
+            I’m always open to new opportunities and collaborations. Email works
+            best for me, especially if we’re in different time zones.
+          </p>
+          <a class="contact__email" href="mailto:moazhasib24@gmail.com">
+            moazhasib24@gmail.com
+          </a>
+
+          <div class="contact__socials">
+            <a href="https://facebook.com" target="_blank">
+              <img
+                class="contact__social"
+                src="images/brand/facebook.svg"
+                alt="Facebook"
+              />
+            </a>
+            <a href="https://github.com" target="_blank">
+              <img
+                class="contact__social"
+                src="images/brand/github.svg"
+                alt="Github"
+              />
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <img
+                class="contact__social"
+                src="images/brand/instagram.svg"
+                alt="Instagram"
+              />
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+              <img
+                class="contact__social"
+                src="images/brand/linkedin.svg"
+                alt="LinkedIn"
+              />
+            </a>
+            <a href="https://twitter.com" target="_blank">
+              <img
+                class="contact__social"
+                src="images/brand/twitter.svg"
+                alt="Twitter"
+              />
+            </a>
+            <a href="https://youtube.com" target="_blank">
+              <img
+                class="contact__social"
+                src="images/brand/youtube.svg"
+                alt="YouTube"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="contact__form">
+          <div class="h2__heading">
+            <h2>
+              Let’s Build <br />
+              Something Great
+            </h2>
+          </div>
+          <form action="results.html" class="contact__form-content">
+            <div class="contact__inputs">
+              <input
+                type="text"
+                name="full name"
+                class="content__input"
+                placeholder="Your Full Name"
+                required
+              />
+
+              <input
+                type="tel"
+                name="phone number"
+                class="content__input"
+                placeholder="123-456-7890"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                required
+              />
+            </div>
+
+            <textarea
+              name="message"
+              class="content__input content__textarea"
+              placeholder="Type your message here..."
+              required
+            ></textarea>
+
+            <input type="submit" class="content__button" value="Send Message" />
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">© 2025 — Crafted by Moaz Ibrahim</footer>
+    </div>
+  </body>
+</html>
