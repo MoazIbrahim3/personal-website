@@ -216,7 +216,8 @@ html {
 .si-hi-link {
   color: var(--color-white);
   background-color: var(--color-black);
-  padding: 0.7rem 4.7rem;
+  padding: 1rem 4.7rem;
+  border-radius: 0.5rem;
 }
 .find-out-link {
   padding: 0.7rem 0;
@@ -346,6 +347,12 @@ html {
 .contact__email {
   font-weight: var(--font-weight-bold);
   margin: 2.5rem 0;
+  color: rgb(13, 44, 82);
+}
+.contact__social {
+  margin-right: 2rem;
+  transition: var(--transition-timing);
+
 }
 .contact__social:hover {
   transform: scale(1.2);
@@ -382,7 +389,10 @@ html {
   padding: 1rem 0;
   font-size: var(--font-size-15);
   border-top: 0.1rem solid var(--color-black);
-} /* =============== RESPONSIVE =============== */ /* =============== RESPONSIVE =============== */ /* ================== MEDIA QUERIES ================== */ /* ≤ 1000px */
+  text-align: center;
+} 
+/* ================= MEDIA QUERIES ================= */
+/* ≤ 1000px */
 @media (max-width: 1000px) {
   html {
     font-size: 8px;
@@ -501,4 +511,4 @@ html {
   .container {
     padding: 0;
   }
-}
+} 
